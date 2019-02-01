@@ -1,0 +1,36 @@
+*.pyc
+*~
+*.bak
+.ipynb_checkpoints/*
+
+## Tex.
+*.aux
+tex/*.pdf
+tex/*.log
+
+
+## Added for PyCharm
+*.iml
+.idea/
+.vscode/
+
+## For Data
+*.table
+storage*
+*.db
+*.config
+results/*
+results.zip
+measure_*
+libs/
+data/*
+*.out
+
+## Personal data
+*credentials*
+notes/*
+!notes/public_*
+
+## For outputs
+*outfile*
+out/*
